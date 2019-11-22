@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 07-jun-2018 9:12:05 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="datalab.upo.ladonspark.model.Algorithm" table="algorithm" catalog="spark" optimistic-lock="version">
+        <id name="idAlg" type="java.lang.Integer">
+            <column name="id_alg" />
+            <generator class="identity" />
+        </id>
+        <property name="nameAlg" type="string">
+            <column name="name_alg" length="250" not-null="true" />
+        </property>
+        <property name="urlAlg" type="string">
+            <column name="url_alg" length="250" not-null="true" />
+        </property>
+        <property name="class_" type="string">
+            <column name="class" not-null="true" />
+        </property>
+        <set name="parameters" table="parameter" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="id_alg_par" not-null="true" />
+            </key>
+            <one-to-many class="datalab.upo.ladonspark.model.Parameter" />
+        </set>
+    </class>
+</hibernate-mapping>

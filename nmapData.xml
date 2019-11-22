@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.60 scan initiated Fri Jun  8 08:55:19 2018 as: nmap -sP -oX /home/amfergom/NetBeansProjects/LadonSpark/nmapData.xml 192.168.1.0/24 -->
+<nmaprun scanner="nmap" args="nmap -sP -oX /home/amfergom/NetBeansProjects/LadonSpark/nmapData.xml 192.168.1.0/24" start="1528440919" startstr="Fri Jun  8 08:55:19 2018" version="7.60" xmloutputversion="1.04">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.1" addrtype="ipv4"/>
+<hostnames>
+<hostname name="_gateway" type="PTR"/>
+</hostnames>
+<times srtt="1003" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.26" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mcconesp.upo.es" type="PTR"/>
+</hostnames>
+<times srtt="325" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.34" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mjdomcor.upo.es" type="PTR"/>
+</hostnames>
+<times srtt="442" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.41" addrtype="ipv4"/>
+<hostnames>
+<hostname name="pscic2.upo.es" type="PTR"/>
+</hostnames>
+<times srtt="661" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.44" addrtype="ipv4"/>
+<hostnames>
+<hostname name="jhodpad.upo.es" type="PTR"/>
+</hostnames>
+<times srtt="314" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.52" addrtype="ipv4"/>
+<hostnames>
+<hostname name="igmargue.upo.es" type="PTR"/>
+</hostnames>
+<times srtt="283" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.61" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mrgarolm.upo.es" type="PTR"/>
+</hostnames>
+<times srtt="423" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.65" addrtype="ipv4"/>
+<hostnames>
+<hostname name="antonio-cic" type="PTR"/>
+</hostnames>
+<times srtt="74" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.68" addrtype="ipv4"/>
+<hostnames>
+<hostname name="asuc7.upo.es" type="PTR"/>
+</hostnames>
+<times srtt="995" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.74" addrtype="ipv4"/>
+<hostnames>
+<hostname name="asuc2.upo.es" type="PTR"/>
+</hostnames>
+<times srtt="579" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.84" addrtype="ipv4"/>
+<hostnames>
+<hostname name="pscic7.upo.es" type="PTR"/>
+</hostnames>
+<times srtt="653" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.88" addrtype="ipv4"/>
+<hostnames>
+<hostname name="emrodcer.upo.es" type="PTR"/>
+</hostnames>
+<times srtt="467" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.93" addrtype="ipv4"/>
+<hostnames>
+<hostname name="asuc3.upo.es" type="PTR"/>
+</hostnames>
+<times srtt="1242" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.97" addrtype="ipv4"/>
+<hostnames>
+<hostname name="tempbecacic03.upo.es" type="PTR"/>
+</hostnames>
+<times srtt="612" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.98" addrtype="ipv4"/>
+<hostnames>
+<hostname name="asuc4.upo.es" type="PTR"/>
+</hostnames>
+<times srtt="299" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.99" addrtype="ipv4"/>
+<hostnames>
+<hostname name="asuc5.upo.es" type="PTR"/>
+</hostnames>
+<times srtt="572" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.104" addrtype="ipv4"/>
+<hostnames>
+<hostname name="allizgar.upo.es" type="PTR"/>
+</hostnames>
+<times srtt="352" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.107" addrtype="ipv4"/>
+<hostnames>
+<hostname name="pscic4.upo.es" type="PTR"/>
+</hostnames>
+<times srtt="1956" rttvar="4086" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.111" addrtype="ipv4"/>
+<hostnames>
+<hostname name="asuc8.upo.es" type="PTR"/>
+</hostnames>
+<times srtt="645" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.134" addrtype="ipv4"/>
+<hostnames>
+<hostname name="pitufolab.upo.es" type="PTR"/>
+</hostnames>
+<times srtt="303" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.160" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ssttocu.upo.es" type="PTR"/>
+</hostnames>
+<times srtt="575" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.173" addrtype="ipv4"/>
+<hostnames>
+<hostname name="saregan.upo.es" type="PTR"/>
+</hostnames>
+<times srtt="751" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.232" addrtype="ipv4"/>
+<hostnames>
+<hostname name="pscic3.upo.es" type="PTR"/>
+</hostnames>
+<times srtt="605" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.248" addrtype="ipv4"/>
+<hostnames>
+<hostname name="pscic.upo.es" type="PTR"/>
+</hostnames>
+<times srtt="616" rttvar="5000" to="100000"/>
+</host>
+<runstats><finished time="1528440921" timestr="Fri Jun  8 08:55:21 2018" elapsed="2.11" summary="Nmap done at Fri Jun  8 08:55:21 2018; 256 IP addresses (24 hosts up) scanned in 2.11 seconds" exit="success"/><hosts up="24" down="232" total="256"/>
+</runstats>
+</nmaprun>
