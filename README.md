@@ -7,66 +7,29 @@ The LadonSpark tool offers an open-source and non-commercial solution to automat
 Pre-requisites
 ==============
 
-This section describes the prerequisites needed for a proper functioning
-of the proposed approach. In particular, the minimal prerequisites for
-the cluster launching can be summarized as follows:
+1.  Shared dataset. The dataset to be processed by an algorithm has to be shared for all nodes of the cluster. Currently, there are two different ways to share it:
 
-1.  Shared dataset. The dataset to be processed by an algorithm has to
-    be shared for all nodes of the cluster. Currently, there are two
-    different ways to share it:
+    1.  HDFS System. This system distributes a dataset in all nodes of the cluster. The LadonSpark application integrates the HDFS, which can be started up using a script that has been developed to install it across the cluster easily.
 
-    1.  HDFS System. This system distributes a dataset in all nodes of
-        the cluster. The LadonSpark application integrates the HDFS,
-        which can be started up by means of a script that has been
-        developed to easily install it across the cluster.
+    2.  File repository. The dataset is replicated in every node at a specific folder. That way, Spark can access to the required specific data blocks in every node. This option reduces the computational time, but it requires much space in memory for each node.
 
-    2.  File repository. The dataset is replicated in every node at a
-        specific folder. That way, Spark can access to the required
-        specific data blocks in every node. This option reduces the
-        computational time, but it requires much space in memory for
-        each node.
+2.  RSA ring. RSA keys are necessary for the exchange of information between nodes without having to enter credentials for each connection.
 
-2.  RSA ring. RSA keys are necessary for the exchange of information
-    between nodes without having to enter credentials for each
-    connection.
+3.  Global user. It is necessary to facilitate the RSA ring. Hence, access to the path of the files is greatly simplified through the same user and password for all nodes.
 
-3.  Global user. It is necessary to facilitate the RSA ring. Hence, the
-    access to the path of the files is greatly simplified through a same
-    user and password for all nodes.
+4. Nmap. This is a critical prerequisite because this application sniffs the network and creates the nodes list. Nmap must be installed in the master node, enabling it to discover new potential nodes to be part of the cluster.
 
-4.  Nmap. This is a critical prerequisite, because this application
-    sniffs the network and creates the nodes list. Nmap must be
-    installed in the master node, enabling it to discover new potential
-    nodes to be part of the cluster.
+5.  Spark package. This package must be downloaded and unzipped in the specific path /home/username.
 
-5.  Spark package. This package must be downloaded and unzipped in the
-    specific path */home/username*.
+6.  Scala package. As happens with the Spark package, the Scala package must be downloaded and unzipped for the proper execution of an algorithm, which has been developed in the Scala programming language.
 
-6.  Scala package. As happening with the Spark package, the Scala
-    package must be downloaded and unzipped for a proper execution of
-    any algorithm, which has been developed in the Scala programming
-    language.
+Finally, two new libraries have been included in the last update of the LadonSpark, and therefore, their installation will be required to execute an algorithm in both R or Python languages supported by Spark.
 
-Finally, two new libraries have been included on the last update of the
-LadonSpark, and therefore, their installation will be required to
-execute an algorithm in both R or Python languages supported by Spark.
+1.   R-base. This library allows executing R code from Spark. This language has been included because it is one of the most used languages for data analysis currently.
 
-1.  R-base. This library allows executing R code from Spark. This
-    language has been included because it is one of the most used
-    languages for data analysis currently.
+2.  Python. This language is a pervasive and popular programming language nowadays. For that reason, this library has been included in developing algorithms using Python from Spark.
 
-2.  Python. This language is a very widespread and popular programming
-    language nowadays. For that reason, this library has been included
-    to develop algorithms using Python from Spark.
-
-Obtaining the resources
-=======================
-
-There are two ways to getting the application resources:
-
-1.  From GitHub: <https://github.com/datascienceresearchlab/LadonSpark>
-
-Installation process {#install}
+Installation process
 ====================
 
 This section defines the process of configuring and installing the tools
