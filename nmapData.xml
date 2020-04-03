@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.60 scan initiated Fri Apr  3 19:46:07 2020 as: nmap -sP -oX /home/antonio/git/LadonSpark/nmapData.xml 192.168.1.0/24 -->
+<nmaprun scanner="nmap" args="nmap -sP -oX /home/antonio/git/LadonSpark/nmapData.xml 192.168.1.0/24" start="1585935967" startstr="Fri Apr  3 19:46:07 2020" version="7.60" xmloutputversion="1.04">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.1" addrtype="ipv4"/>
+<hostnames>
+<hostname name="_gateway" type="PTR"/>
+</hostnames>
+<times srtt="2754" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.101" addrtype="ipv4"/>
+<hostnames>
+<hostname name="antonio-GP60-2PE" type="PTR"/>
+</hostnames>
+<times srtt="91" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.103" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="41784" rttvar="41784" to="208920"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.104" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="62834" rttvar="60139" to="303390"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.114" addrtype="ipv4"/>
+<hostnames>
+<hostname name="slave1" type="PTR"/>
+</hostnames>
+<times srtt="1306" rttvar="5000" to="100000"/>
+</host>
+<runstats><finished time="1585935970" timestr="Fri Apr  3 19:46:10 2020" elapsed="3.28" summary="Nmap done at Fri Apr  3 19:46:10 2020; 256 IP addresses (5 hosts up) scanned in 3.28 seconds" exit="success"/><hosts up="5" down="251" total="256"/>
+</runstats>
+</nmaprun>
