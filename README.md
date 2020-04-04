@@ -125,6 +125,7 @@ As LadonSpark is a web application we neet to deploy it in an application server
 
 Cluster deployment
 ============
+![ScreenShot](http://img.youtube.com/vi/IqUY5op9FqY/0.jpg)]
 (https://www.youtube.com/embed/IqUY5op9FqY)
 
 
