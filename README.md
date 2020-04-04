@@ -125,8 +125,8 @@ As LadonSpark is a web application we neet to deploy it in an application server
 
 Cluster deployment
 ============
+(https://www.youtube.com/embed/IqUY5op9FqY)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IqUY5op9FqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Adding an algorithm
 ============
