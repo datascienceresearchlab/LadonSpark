@@ -1,3 +1,17 @@
+Cluster deployment
+============
+[![Cluster deployment](http://img.youtube.com/vi/IqUY5op9FqY/0.jpg)](https://www.youtube.com/embed/IqUY5op9FqY "Cluster deployment")
+
+
+Adding an algorithm
+============
+
+Running an algorithm
+============
+
+Complete demo
+============
+
 Introduction
 ============
 The LadonSpark tool offers an open-source and non-commercial solution to automatically configure and deploy a Spark cluster. Besides, the main advantage that a potential user acquires when he installs this system is to avoid the necessity to collaborate with an administrator role. Therefore, any user that have several machines connected by a network can configure and deploy a Spark cluster in a user-friendly, and free of charge way without any system administrator capabilities. Note that this fact means a great advantage, for instance, for small-medium data science research groups, as well as another more kind of users. The application has also been designed to easily integrate new algorithms by just uploading executable files and configuring the inputs. As a sample usage, the tool incorporates some algorithms of the machine learning library (MLlib) of Spark, in particular, Kmeans (clustering), Generalized linear models (regression), and FP-Growth (pattern extraction).
@@ -123,18 +137,5 @@ As LadonSpark is a web application we neet to deploy it in an application server
 
 2.  ./tomcat_deployment.sh username password ladonSpark_Path
 
-Cluster deployment
-============
-![ScreenShot](http://img.youtube.com/vi/IqUY5op9FqY/0.jpg)]
-(https://www.youtube.com/embed/IqUY5op9FqY)
 
-
-Adding an algorithm
-============
-
-Running an algorithm
-============
-
-Complete demo
-============
 
