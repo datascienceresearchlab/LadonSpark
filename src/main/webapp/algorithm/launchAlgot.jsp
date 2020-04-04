@@ -66,9 +66,9 @@
                 String command = "sh /home/" + request.getSession().getAttribute("user") + "/spark/bin/spark-submit --class " + la.getA().getUrlAlg() + " --master spark://" + request.getSession().getAttribute("master") + ":7077 " + request.getSession().getAttribute("algorfiles") + "src/main/webapp/algorithm/dataAlgoritm/" + la.getA().getClass_() + " hdfs://" + request.getSession().getAttribute("master") + ":8020/user/input/" + la.getDataset() + cadena;
              //Nueva versión 
              //String command = "sh /opt/spark/bin/spark-submit --class " + la.getA().getUrlAlg() + " --master spark://" + request.getSession().getAttribute("master") + ":7077 " + request.getSession().getAttribute("algorfiles") + "src/main/webapp/algorithm/dataAlgoritm/" + la.getA().getClass_() + " hdfs://" + request.getSession().getAttribute("master") + ":8020/user/input/" + la.getDataset() + cadena;
-                String command2="/home/antonio/spark/bin/spark-submit --class KMeans --master spark://192.168.1.101:7077 /opt/hadoop/kmeans.jar /home/antonio/spark/prueba.csv 2 5";
+              //  String command2="/home/antonio/spark/bin/spark-submit --class KMeans --master spark://192.168.1.101:7077 /opt/hadoop/kmeans.jar /home/antonio/spark/prueba.csv 2 5";
                 out.write("Generated command " + command);
-                Process k = Runtime.getRuntime().exec(command2);
+                Process k = Runtime.getRuntime().exec(command);
                 k.waitFor();
                 System.out.println("despues de comando");
                 InputStream is = k.getInputStream();
