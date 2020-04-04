@@ -124,7 +124,7 @@ As LadonSpark is a web application we neet to deploy it in an application server
 2.  ./tomcat_deployment.sh username password ladonSpark_Path
 
 
-Videos
+Demostration videos
 ===========
 Cluster deployment
 -------------------
